@@ -8,7 +8,7 @@ rm(list = ls(all = TRUE))                        # Remove all previous objects
 gc()                                             # Garbage collection
 assign("last.warning", NULL, envir = baseenv())  # Reset list of past warnings
 
-# Loading the tidyverse. We will mainly be using the including dplyr package.
+# Loading the tidyverse. We will mainly be using the included dplyr package.
 
 library(tidyverse)
 
