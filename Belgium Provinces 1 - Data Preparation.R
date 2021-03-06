@@ -1,9 +1,9 @@
-# All data used here, retrived from the National Bank of Belgium's Online Statistics
+# All data used here, retrieved from the National Bank of Belgium's Online Statistics
 # (http://stat.nbb.be/?lang=en#), contains annual data from 2017 for each of the eleven
 # Belgian provinces. All variables are measured in millions of euros except for
 # population, measured in individuals.
 
-# Optional: Freshening up 
+# Optional: Freshening up RStudio 
 rm(list = ls(all = TRUE))                        # Remove all previous objects
 gc()                                             # Garbage collection
 assign("last.warning", NULL, envir = baseenv())  # Reset list of past warnings
