@@ -22,6 +22,10 @@ bprovinces_matrix <- bprovinces_2017 %>%
   select_if(is.numeric) %>%
   as.matrix
 
+head(bprovinces_matrix)
+print(bprovinces_pca <- PCA(bprovinces_matrix, scale.unit = TRUE))
+str(bprovinces_pca)
+
 # Plot the original variables and the first 2 components and print the plot object.
 # Given our large number of variables, this visualization will not be particularly useful
 # in this project but would be for others with fewer variables.
